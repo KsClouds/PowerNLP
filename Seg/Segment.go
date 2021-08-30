@@ -1,8 +1,8 @@
 package Seg
 
 import (
-	"github.com/zhmc/PowerNLP/Seg/Collections"
-	"github.com/zhmc/PowerNLP/Seg/SegList/DictSeg"
+	"github.com/ksclouds/PowerNLP/Seg/Collections"
+	"github.com/ksclouds/PowerNLP/Seg/SegList/DictSeg"
 )
 
 //分词器
