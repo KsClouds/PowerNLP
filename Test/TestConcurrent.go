@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/zhmc/PowerNLP/Seg/SegList/DictSeg"
+
+	"github.com/ksclouds/PowerNLP/Seg/SegList/DictSeg"
 )
 
 var wait = make(chan string, 10)

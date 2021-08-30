@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/zhmc/PowerNLP/Seg/Collections"
 	"fmt"
+
+	"github.com/ksclouds/PowerNLP/Seg/Collections"
 )
 
 func main() {
@@ -12,7 +13,7 @@ func main() {
 	fmt.Println(len(t.Base))
 	fmt.Println(len(t.RuneCodeMap))
 	fmt.Println(t.GetRuneCode('d'))
-	t.AppendToTailArray([]rune("hello"),3)
+	t.AppendToTailArray([]rune("hello"), 3)
 	fmt.Println(string(t.Tail[0]))
 
 	//fmt.Println("插入 ab")
@@ -49,7 +50,6 @@ func main() {
 	//fmt.Println("存在 黑大陆?", t.Contains("黑大陆"))
 	//fmt.Println("存在 黑大陆陆?", t.Contains("黑大陆陆"))
 
-
 	//fmt.Println("插入 黑")
 	//t.Insert("黑")
 	//fmt.Println("存在 黑？", t.Contains("黑"))
@@ -59,7 +59,6 @@ func main() {
 	//fmt.Println("存在 黑大?", t.Contains("黑大"))
 	//fmt.Println("存在 黑大陆?", t.Contains("黑大陆"))
 	//fmt.Println("存在 黑色?", t.Contains("黑色"))
-
 
 	fmt.Println("插入 bachelor")
 	t.Insert("bachelor")

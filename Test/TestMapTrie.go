@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/zhmc/PowerNLP/Seg"
-	BaseTrie "github.com/zhmc/PowerNLP/Seg/Collections"
+
+	"github.com/ksclouds/PowerNLP/Seg"
+	BaseTrie "github.com/ksclouds/PowerNLP/Seg/Collections"
 )
 
 func main() {
